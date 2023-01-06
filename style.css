@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body{
+background: #f8f8f8;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    overflow: hidden;
+    padding: 5px 20px;
+    border-bottom: 0.5px solid #ccc;
+    background-color: white;
+    padding-bottom: 10px;
+
+}
+
+
+.top-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.right-side{
+    margin-left: auto;
+}
+
+
+.left-side .logo img{
+    height: 30px;
+    margin-right: 80px;
+}
+
+
+.search-bar {
+    position: relative;
+    margin-left: 150px;  /** I added this **/
+    
+}
+
+.search-bar input{
+    width: 750px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    
+}
+
+
+.search-bar .fa-xmark{
+    position: absolute;
+    right: 120px;
+    top: 12px;
+}
+
+.search-bar .fa-microphone{
+    position: absolute;
+    right: 100px;
+    top: 12px;
+}
+
+
+.search-bar .fa-camera{
+    position: absolute;
+    right: 70px;
+    top: 12px;
+}
+
+
+.search-bar .fa-magnifying-glass{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+
+.right-side span{
+    margin-right: 40px;
+}
+
+
+.bottom-header{
+    margin-left: 170px;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bottom-header > div{
+     margin-right: 20px;
+}
+
+
+.bottom-header #all, .bottom-header #news, .bottom-header #images, .bottom-header #videos, .bottom-header #more {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bottom-header p {
+    margin-left: 5px;
+}
