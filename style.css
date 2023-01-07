@@ -66,6 +66,9 @@ header{
     
 }
 
+.search-bar input::placeholder{
+    padding-left: 20px;
+}
 
 .search-bar .fa-xmark{
     position: absolute;
