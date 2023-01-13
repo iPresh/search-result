@@ -156,8 +156,22 @@ header{
 }
 
 .overview-sec .overview-btn{
-    padding: 12px;
-    border-radius: 10px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
     text-decoration: none;
     border: none;
+}
+
+.overview-sec {
+    margin-left: 15px;
+}
+
+.overview-sec .the-overview{
+    border: 1px solid grey;
+}
+
+.name > h6{
+    margin-top: 10px;
+    font-weight: lighter;
 }
