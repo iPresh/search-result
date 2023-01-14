@@ -48,11 +48,11 @@ header{
 
 .top-header .logo img{
     height: 30px;
-    margin-right: 80px;
+    margin-right: 70px;
 }
 
 .top-header .logo{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -140,9 +140,9 @@ header{
     margin-left: 5px;
 }
 
-.main-container{
+.mini-container{
     margin-top: 160px;
-    margin-left: 190px;
+    margin-left: 170px;
 }
 
 .blurb{
@@ -175,3 +175,9 @@ header{
     margin-top: 10px;
     font-weight: lighter;
 }
+
+.container {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
