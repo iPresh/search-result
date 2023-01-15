@@ -212,16 +212,26 @@ header{
     margin-right: 10px;
 }
 
+.left-messi p{
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+ #below-stories{
+    margin-top: 25px;
+}
+
+
 .right-top{
     display: flex;
     margin-bottom: 15px;
 }
 
 .right-top, .right-bottom, h4{
-    font-weight: 400;
+    font-weight: 200;
 }
 
-.right-top, .right-bottom, img{
+.right-messi img{
     border-radius: 10px;
 }
 
@@ -238,4 +248,53 @@ header{
     display:flex;
     margin-top: 20px;
     font-size: smaller;
+}
+
+.news-view{
+    display: flex;
+    margin-top: 10px;
+    border-top: 1px solid rgb(223, 212, 212);
+    padding-top: 12px;
+}
+
+.left-view{
+    display: flex;
+    margin-right: 15px;
+}
+
+.left-view .red{
+    color: darkred;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.left-view img{
+    border-radius: 10px;
+}
+
+.left-view p{
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+
+
+.right-view{
+    display: flex;
+    margin-right: 15px;
+}
+
+.right-view .red{
+    color: darkred;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.right-view img{
+    border-radius: 10px;
+}
+
+.right-view p{
+    font-size: smaller;
+    margin-top: 10px;
 }
