@@ -298,3 +298,74 @@ header{
     font-size: smaller;
     margin-top: 10px;
 }
+
+.sec-btn{
+    display: grid;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 95px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+}
+
+.questions{
+    margin-top: 50px;
+    
+}
+
+.questions h2{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.ques-one, .ques-two, .ques-three, .ques-four{
+    display: flex;
+    border-top: 1px solid rgb(223, 212, 212);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ques-one .fa-angle-down{
+    margin-left: 30em;
+}
+.ques-two .fa-angle-down{
+    margin-left: 24.3em;
+}
+.ques-three .fa-angle-down{
+    margin-left: 31em;
+}
+.ques-four .fa-angle-down{
+    margin-left: 21em;
+}
+
+.ques-four{
+    border-bottom: 1px solid rgb(223, 212, 212);
+}
+
+.news{
+    margin-top: 50px;
+}
+
+.wikipedia{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.wiki-blurb #small-link{
+    font-size: 14px;
+    color: black;
+}
+
+#small-link p{
+    margin-bottom: 15px;
+}
+
+.wiki-blurb h3{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.wiki-img img{
+    border-radius: 10px;
+}
