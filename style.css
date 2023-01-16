@@ -179,6 +179,7 @@ header{
 .container {
     margin-left: 170px;
     margin-top: 40px;
+    display: flex;
 }
 
 .top-stories{
@@ -368,4 +369,39 @@ header{
 
 .wiki-img img{
     border-radius: 10px;
+}
+
+
+.videos .heading{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.video-sec{
+    display: flex;
+    border-top: 1px solid rgb(223, 212, 212);
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.video-sec img{
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.video-blurb .video-desc{
+    margin-top: 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.video-blurb .video-time{
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+.video-blurb .bold-text{
+    color: black;
+    margin-right: 5px;
 }
