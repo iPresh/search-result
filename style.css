@@ -197,6 +197,13 @@ header{
     width: 60%;
 }
 
+.container-left .curved-one{
+    border-radius: 10px 0 0 10px;
+}
+
+.container-left .curved{
+    border-radius: 0 10px 10px 0;
+}
 
 .messi-section{
     display: flex;
@@ -404,4 +411,32 @@ header{
 .video-blurb .bold-text{
     color: black;
     margin-right: 5px;
+}
+
+.trend-one{
+    margin-top: 40px;
+    padding-right: 30px;
+}
+
+.trend-one #trend-link{
+    font-size: 14px;
+    color: black;
+}
+
+#trend-link p{
+    margin-bottom: 10px;
+}
+
+#trend-cap p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.trend-one .trend-para{
+    font-size: 14px;
+    color:rgb(65, 59, 59);
+}
+
+.trend-one #trend-bold {
+   color: rgb(2, 2, 2);
 }
