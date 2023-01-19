@@ -335,16 +335,16 @@ header{
 }
 
 .ques-one .fa-angle-down{
-    margin-left: 30em;
+    margin-left: 28.2em;
 }
 .ques-two .fa-angle-down{
-    margin-left: 24.3em;
+    margin-left: 22.5em;
 }
 .ques-three .fa-angle-down{
-    margin-left: 31em;
+    margin-left: 29em;
 }
 .ques-four .fa-angle-down{
-    margin-left: 21em;
+    margin-left: 19.2em;
 }
 
 .ques-four{
@@ -439,6 +439,7 @@ header{
 
 .trend-one #trend-bold {
    color: rgb(2, 2, 2);
+   font-weight: 600;
 }
 
 .search-rel{
@@ -470,3 +471,35 @@ header{
     font-size: 14px;
     margin-left: 5px;
 }
+
+
+.container-right{
+    width: 40%;
+    margin-left: 40px;
+    padding-right: 70px;
+}
+
+.container-right .about{
+    border-left: 1px solid rgb(223, 212, 212);
+    padding-left: 20px;
+}
+
+.container-right .about p{
+    font-size: 14px;
+    color:rgb(90, 88, 88);
+    line-height: 2em;
+}
+
+.container-right .about-messi{
+    margin-bottom: 15px;
+}
+
+.container-right .text-messi{
+    margin-top: 10px;
+}
+
+.text-messi #bold-messi{
+    color: black;
+    font-weight: 600;
+}
+
